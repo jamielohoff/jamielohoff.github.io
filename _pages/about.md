@@ -5,7 +5,7 @@ layout: single
 author_profile: true
 ---
 
-# TLDR
+
 **Upbringing and age**: I was born on March 11th, 1996 in Illertissen, Bavaria and grew up in the suburbs of Stuttgart.<br>
 **Marital status**: Married to the most beautiful woman in the world (10/10, would do again).<br>
 **Education**: Studied Physics in Stuttgart and Heidelberg (BS, MS) .<br>
