@@ -6,7 +6,7 @@ layout: page
 **Upbringing and age**: I was born on March 11th, 1996 in Illertissen, Bavaria and grew up in the suburbs of Stuttgart (you do the math yourself).<br>
 **Marital status**: Married to the most beautiful woman in the world (10/10, would do again).<br>
 **Education**: Studied Physics in Stuttgart and Heidelberg (BS, MS).<br>
-**Occupation**: Doing a PhD in Neuromorphic Computing and Artificial Intelligence at RWTH Aachen in cooperation with the Jülich Research Center. It's a lot of fun!<br>
+**Occupation**: Doing a PhD in Neuromorphic Computing and Artificial Intelligence at RWTH Aachen and Jülich Research Center. It's a lot of fun!<br>
 
 
 # The Scientific Me
