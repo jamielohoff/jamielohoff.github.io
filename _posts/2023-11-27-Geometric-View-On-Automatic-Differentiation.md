@@ -1,6 +1,6 @@
 ---
 title: "Geometric View on Automatic Differentiation"
-categories:
+tags:
   - AD
 ---
 
