@@ -23,10 +23,10 @@ I am particularly interested in applying methods from Statistical Physics and Di
 Why? No specific reason. I just like the ideas and the math and hope to have fun along the way.
 If I had to justify it though, I would probably give an answer similar to:<br>
 
-"Statistical physics is the study of large-scale systems composed of microscopic entities to understand their macroscopic, collective behavior.
-It is thus a good choice to study whether intelligence is an emergent property of ensembles of neurons."<br>
-"Differential Geometry enables one to study optimization. In my view learning and optimization are very similar; sometimes event the same, e.g. supervised learning.
-Therefore it is a good framework to think about learning. Maybe."<br><br>
+> Statistical physics is the study of large-scale systems composed of microscopic entities to understand their macroscopic, collective behavior.
+It is thus a good choice to study whether intelligence is an emergent property of ensembles of neurons.<br>
+>Differential Geometry enables one to study optimization. In my view learning and optimization are very similar; sometimes event the same, e.g. supervised learning.
+Therefore it is a good framework to think about learning. Maybe.<br>
 
 Apart from these very theoretical considerations, I am also a big fan of actually building cool and useful things, which is also why I want to understand Neuroscience and AI better in the first place. I am convinced that we can only build cooler and better stuff if we really understand what we are doing.
 <br>
