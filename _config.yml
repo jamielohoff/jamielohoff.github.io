@@ -20,7 +20,7 @@ title                    : "Personal Blog"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Jamie Lohoff"
-description              : "An amazing website."
+description              : "My personal blog where I write about things that I come across during my PhD."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -106,13 +106,13 @@ analytics:
 author:
   name             : "Jamie Lohoff"
   avatar           : "/assets/02.jpg"
-  bio              : "I am an **amazing** person."
+  bio              : "I am physicist working at the intersection of Artificial Intelligence and Neuroscience. Think brain-inspired computing..."
   location         : "Aachen, Germany"
-  email            : "jamie.lohoff@gmail.com"
+  email            :
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:jamie.lohoff@gmail.com"
+      url: "mailto:jamie.lohoff@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
