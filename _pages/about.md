@@ -6,9 +6,9 @@ author_profile: true
 ---
 
 # TLDR
-**Upbringing and age**: I was born on March 11th, 1996 in Illertissen, Bavaria and grew up in the suburbs of Stuttgart (you do the math yourself).<br>
+**Upbringing and age**: I was born on March 11th, 1996 in Illertissen, Bavaria and grew up in the suburbs of Stuttgart.<br>
 **Marital status**: Married to the most beautiful woman in the world (10/10, would do again).<br>
-**Education**: Studied Physics in Stuttgart and Heidelberg (BS, MS).<br>
+**Education**: Studied Physics in Stuttgart and Heidelberg (BS, MS) .<br>
 **Occupation**: Doing a PhD in Neuromorphic Computing and Artificial Intelligence at RWTH Aachen and Jülich Research Center. It's a lot of fun!<br>
 
 
@@ -24,7 +24,7 @@ Why? No specific reason. I just like the ideas and the math and hope to have fun
 If I had to justify it though, I would probably give an answer similar to:<br>
 
 > Statistical physics is the study of large-scale systems composed of microscopic entities to understand their macroscopic, collective behavior.
-It is thus a good choice to study whether intelligence is an emergent property of ensembles of neurons.
+It is thus a good choice for studing whether intelligence is an emergent property of ensembles of neurons.
 
 <br><br>
 
@@ -51,6 +51,13 @@ Physics stuff that I came across which is not in the default curriculum:
 - Quantum Field Theory, although the Renormalization of QED is still kind of a fucked-up thing to me, Symmetry-breaking and Goldstone Bosons are a cool theory
 - Topological Edge States, Topological Insulators, Topological QFT, but only the basics
 - Differential Geometry and Topology (my favorite field, only non-standard for a physicist)
+- Qunatum Information Theory, but never used a Quantum Computer
+
+Stuff that is on my To-Learn list:
+- Physical Computing, e.g. memristors, coupled systems of spins, computing with lasers and non-linear optics etc.
+- Neuroscience, especially wet-ware computing, i.e. use actual biological substrates to do stuff (I am dreaming of a GPU that literally lives inside my PC)
+- Brain-Machine Interfaces, remote-controlling of prosthetics
+- Robotics, in particular drones and sunmarines
 
 CV: <br>
 
