@@ -3,10 +3,10 @@ layout: page
 ---
 
 # TLDR
-*Upbringing and age*: I was born on March 11th, 1996 in Illertissen, Bavaria and grew up in the suburbs of Stuttgart (you do the math yourself).<br>
-*Marital status*: Married to the most beautiful woman in the world (10/10, would do again).<br>
-*Education*: Studied Physics in Stuttgart and Heidelberg (BS, MS).<br>
-*Occupation*: Doing a PhD in Neuromorphic Computing and Artificial Intelligence at RWTH Aachen in cooperation with the Jülich Research Center. It's a lot of fun!<br>
+**Upbringing and age**: I was born on March 11th, 1996 in Illertissen, Bavaria and grew up in the suburbs of Stuttgart (you do the math yourself).<br>
+**Marital status**: Married to the most beautiful woman in the world (10/10, would do again).<br>
+**Education**: Studied Physics in Stuttgart and Heidelberg (BS, MS).<br>
+**Occupation**: Doing a PhD in Neuromorphic Computing and Artificial Intelligence at RWTH Aachen in cooperation with the Jülich Research Center. It's a lot of fun!<br>
 
 
 # The Scientific Me
@@ -48,7 +48,7 @@ Physics stuff that I came across which is not in the default curriculum:
 CV: <br>
 
 # The more interesting Me
-Hobbies:
+**Hobbies**:
 - Hiking, Bouldering and Rock Climbing
 - Everying that goes fast and is dangerous, e.g. Cars, Motorcycles, Skiing, Mountain Biking
 - Woodworking (see Other Projects)
