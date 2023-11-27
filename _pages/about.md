@@ -30,7 +30,8 @@ It is thus a good choice to study whether intelligence is an emergent property o
 Therefore it is a good framework to think about learning. Maybe.<br>
 
 Apart from these very theoretical considerations, I am also a big fan of actually building cool and useful things, which is also why I want to understand Neuroscience and AI better in the first place. I am convinced that we can only build cooler and better stuff if we really understand what we are doing.
-<br>
+<br><br>
+
 Neuroscience-inspired stuff that I had the pleasure to work with:
 - Event-based cameras that work like the human retina
 - Spiking neural network accelerators aka. silicon brains (BrainScalesS, Speck, DynapCNN)
