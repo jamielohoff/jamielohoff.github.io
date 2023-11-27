@@ -13,7 +13,7 @@ Occupation: Doing a PhD in Neuromorphic Computing and Artificial Intelligence at
 I am yet another physicist who left the field because auf the Neuroscience and AI hype. 
 This however does not mean that I have given up on all the physics and math; quite the contrary actually.
 What intrigues me about Neuroscience and AI is the lack of good foundational theory that allows to truly understand what makes animals, humans and machines intelligent.
-Is intelligence an emergent property that results from scaling up? Is it the connectome of the network that matters? Or is it the computational substrate itself?
+Is intelligence an emergent property that results from scaling up? Is it the connectome of the network that matters? Or is it the computational substrate itself?<br>
 My guess would be that it is a superposition of all these effects, but we don't know yet.
 I believe that insights from mathematics, physics, control theory and electrical engineering can be of help there.
 I am particularly interested in applying methods from Statistical Physics and Differential Geometry to these problems an see how far I can get with that.
