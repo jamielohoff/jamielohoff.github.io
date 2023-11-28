@@ -10,6 +10,7 @@ author_profile: true
 **Marital status**: Married to the most beautiful woman in the world (10/10, would do again).<br>
 **Education**: Studied Physics in Stuttgart and Heidelberg (BS, MS) .<br>
 **Occupation**: Doing a PhD in Neuromorphic Computing and Artificial Intelligence at RWTH Aachen and Jülich Research Center. It's a lot of fun!<br>
+**Dream Jobs**: Staff Scientist, Professor (because lecturing), CEO/Founder of **small** (5-10 ppl.) company
 
 
 # The Scientific Me
@@ -28,52 +29,58 @@ It is thus a good choice for studing whether intelligence is an emergent propert
 
 <br>
 
->Differential Geometry enables one to study optimization. In my view learning and optimization are very similar; sometimes event the same, e.g. supervised learning.
-Therefore it is a good framework to think about learning. Maybe.<br>
+>Differential Geometry enables one to study optimization. In my view learning and optimization are very similar; sometimes even the same, e.g. supervised learning.
+Therefore it is possibly a good framework to think about learning. Maybe.<br>
 
 Apart from these very theoretical considerations, I am also a big fan of actually building cool and useful things, which is also why I want to understand Neuroscience and AI better in the first place. I am convinced that we can only build cooler and better stuff if we really understand what we are doing.
 <br><br>
 
-Neuroscience-inspired stuff that I had the pleasure to work with:
+**Neuroscience-inspired** stuff that I had the pleasure to work with:
 - Event-based cameras that work like the human retina
+- Various SNNs with event-based and frame-based datasets
 - Spiking neural network accelerators aka. silicon brains (BrainScalesS, Speck, DynapCNN)
 - BPTT, RTRL, E-Prop, Event-Prop and all the other famous learning rules
 
-AI stuff that I have enjoyed working with so far:
+**Deep Learning** stuff that I have enjoyed working with so far:
 - Transformers (who hasn't though...)
 - Reinforcement Learning, in particular PPO and AlphaZero
 - Neural Differential Equations, although it is just the Pontryagin Principle from Control Theory at work
 - All the default AI crap like CNNs, RNNs, LSTMs, MLPs, ResNets
 
-Physics stuff that I came across which is not in the default curriculum:
+**Physics** stuff that I came across which is not in the default curriculum:
 - Cosmology, Quintessence models, Brans-Dicke, Sting Theory
 - Infrared telescopy, especially the trajectory of the star S2 orbiting the Milkyway Central Blackhole
 - Quantum Field Theory, although the Renormalization of QED is still kind of a fucked-up thing to me, Symmetry-breaking and Goldstone Bosons are a cool theory
 - Topological Edge States, Topological Insulators, Topological QFT, but only the basics
-- Differential Geometry and Topology (my favorite field, only non-standard for a physicist)
-- Qunatum Information Theory, but never used a Quantum Computer
+- Differential Geometry and Topology (my favorite math topics, only non-standard for a physicist)
+- Quantum Information Theory, but never used a Quantum Computer
 
-Stuff that is on my To-Learn list:
+Stuff that is on my **To-Learn** list:
 - Physical Computing, e.g. memristors, coupled systems of spins, computing with lasers and non-linear optics etc.
 - Neuroscience, especially wet-ware computing, i.e. use actual biological substrates to do stuff (I am dreaming of a GPU that literally lives inside my PC)
 - Brain-Machine Interfaces, remote-controlling of prosthetics
 - Robotics, in particular drones and sunmarines
+- Compute-in-Memory Architectures
 
-CV: <br>
+**CV**: <br>
 
-Favorite Scientists (It is better to have Idols that are already dead because they cannot dissapoint you anymore than they already did.):
-1.) Kurt Gödel: He is the King, for obvious reasons...
+**Favorite Scientists** (It is better to have idols that are already dead because they cannot dissapoint you anymore than they already did):
+1.) Kurt Gödel: He is king, for obvious reasons...
 2.) Wolfgang Pauli: Party hard, think harder...
 3.) Richard Feynman: Only as a scientist and lecturer, not as a human being (his views on women disgust me...)
  
 
-# The more interesting Me
+# The Interesting Me
+**Controversial Opinions**
+- Jax >> PyTorch
+- Linx > Mac >> Windows
+- Children should learn how to code in school and there should be more focus on statistics and rational decision-making should be part of the curriculum as well
+- Teachers/Professors are very much responsible for students liking (or disliking) a particular field
+- AI has already taken over the world, but much more subtle than most people think. This is even worse than an all out "Matrix" or "Terminator" style war. It is going to be a long way until we have self-aware machines with their own free will (if it exists...)
+
+  
 **Hobbies**:
 - Hiking, Bouldering and Rock Climbing
-- Everying that goes fast and is dangerous, e.g. Cars, Motorcycles, Skiing, Mountain Biking
+- Everying that goes fast and is dangerous, e.g. cars, motorcycles, skiing, mountain biking
 - Woodworking (see Other Projects)
 - Guitar and music, especially Rock (Guns'n'Roses), Jazz (Herbie Hancock, Oscar Petterson) and Classical Music (Beethoven)
-
-
-
-
