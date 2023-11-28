@@ -26,7 +26,7 @@ If I had to justify it though, I would probably give an answer similar to:<br>
 > Statistical physics is the study of large-scale systems composed of microscopic entities to understand their macroscopic, collective behavior.
 It is thus a good choice for studing whether intelligence is an emergent property of ensembles of neurons.
 
-<br><br>
+<br>
 
 >Differential Geometry enables one to study optimization. In my view learning and optimization are very similar; sometimes event the same, e.g. supervised learning.
 Therefore it is a good framework to think about learning. Maybe.<br>
