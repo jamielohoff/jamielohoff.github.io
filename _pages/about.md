@@ -61,6 +61,12 @@ Stuff that is on my To-Learn list:
 
 CV: <br>
 
+Favorite Scientists (It is better to have Idols that are already dead because they cannot dissapoint you anymore than they already did.):
+1.) Kurt Gödel: He is the King, for obvious reasons...
+2.) Wolfgang Pauli: Party hard, think harder...
+3.) Richard Feynman: Only as a scientist and lecturer, not as a human being (his views on women disgust me...)
+ 
+
 # The more interesting Me
 **Hobbies**:
 - Hiking, Bouldering and Rock Climbing
