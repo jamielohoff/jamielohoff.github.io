@@ -28,5 +28,9 @@ In practive it is usually not possible to write down f directly and we fall back
 But now a change in coordinates becomes almost trivial because we can just consider maps between different charts.
 However, coordinate-free formulations are extremely helpful if one does not want to worry about things such as choosing a coordinate system and instead focus on the "gist" of what f does. This is particularly important in physics where laws should be independent of the choice of coordinates (a key insight that enabled Einstein to formulate his Theory of General Relativity). All laws of physics can be formulated in a coordinate-free, differential geometric version.
 
+### Tangent Space and Cotangent Space
+Before we move on to doing the fun stuff we have to introduce one more concept: the tangent space. It is the generatlization of the tangent in single-variable calculus.
+We need it to define derivatives on manifolds. The construction of the tangent vectorgests the possibility of doing differential calculus on M; for instance, if given a function u : M → R and a chart (U, φ) on M, one could cons space is a very weird procedure when one sees it for the first time.
 
+Often we are interested in changes induced by f. Think of a neural network which maps the parameter manifold to the loss landscape manifold. Then we are interested in the derivatives of f. We can calculate these using charts because then we can simply apply multivariable calculus. 
 
