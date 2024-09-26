@@ -34,6 +34,6 @@ Before we move on to doing the fun stuff we have to introduce one more concept: 
 We need it to define derivatives on manifolds. The construction of the tangent vector
 
 Often we are interested in changes induced by f. Think of a neural network which maps the parameter manifold to the loss landscape manifold. Then we are interested in the derivatives of f. We can calculate these using charts because then we can simply apply multivariable calculus.
-h<sub>&theta;</sub>(x) = &theta;<sub>o</sub> x + &theta;<sub>1</sub>x
+$h_\theta(x) = \theta_0 x + \theta_1 x$
 
 ### Literature
