@@ -3,31 +3,31 @@ title: Other Projects
 permalink: /other/
 
 gallery:
-    - url: /assets/w40k/Autarch1.jpeg
+  - url: /assets/w40k/Autarch1.jpeg
     image_path: /assets/w40k/Autarch1.jpeg
     alt: "placeholder image 1"
     title: "Image 1 title caption"
-    - url: /assets/w40k/Autarch2.jpeg
+  - url: /assets/w40k/Autarch2.jpeg
     image_path: /assets/w40k/Autarch2.jpeg
     alt: "placeholder image 1"
     title: "Image 1 title caption"
-    - url: /assets/w40k/FireDragon.jpeg
+  - url: /assets/w40k/FireDragon.jpeg
     image_path: /assets/w40k/FireDragon.jpeg
     alt: "placeholder image 1"
     title: "Image 1 title caption"
-    - url: /assets/w40k/FireDragons.jpeg
+  - url: /assets/w40k/FireDragons.jpeg
     image_path: /assets/w40k/FireDragons.jpeg
     alt: "placeholder image 1"
     title: "Image 1 title caption"
-    - url: /assets/w40k/Fuegan.jpeg
+  - url: /assets/w40k/Fuegan.jpeg
     image_path: /assets/w40k/Fuegan.jpeg
     alt: "placeholder image 1"
     title: "Image 1 title caption"
-    - url: /assets/w40k/Seer1.jpeg
+  - url: /assets/w40k/Seer1.jpeg
     image_path: /assets/w40k/Seer1.jpeg
     alt: "placeholder image 1"
     title: "Image 1 title caption"
-    - url: /assets/w40k/Seer2.jpeg
+  - url: /assets/w40k/Seer2.jpeg
     image_path: /assets/w40k/Seer2.jpeg
     alt: "placeholder image 1"
     title: "Image 1 title caption"
