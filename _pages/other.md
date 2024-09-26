@@ -17,12 +17,12 @@ River tables:
 
 
 Cool wedding table "variables" instead of table numbers:
-![image-left](/assets/images/WeddingVariables.jpg){: .align-center}
+![image-left](/assets/WeddingVariables.jpg){: .align-center}
 
 Christmas decorations:
 
 
-### Warhammer 40k Army (Started by my good friend Gerrit - RIP!)
+### Eldar Warhammer 40k Army (Started by my good friend Gerrit - RIP!)
 
 
 
