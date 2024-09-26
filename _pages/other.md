@@ -7,9 +7,21 @@ gallery1:
     image_path: /assets/woodwork/WeddingVariables.jpg
     alt: "Greek Letters"
     title: "Homemade greek letters as a replacement for table numbers for our wedding."
+  - url: /assets/woodwork/RiverTable1.jpg
+    image_path: /assets/woodwork/RiverTable1.jpg
+    alt: "River Table v1-1"
+    title: "First attempt at building a river table."
+  - url: /assets/woodwork/RiverTable2.jpg
+    image_path: /assets/woodwork/RiverTable2.jpg
+    alt: "River Table v1-2"
+    title: "River is made using Epoxy and an assortment of pigments."
+  - url: /assets/woodwork/RiverTable3.jpg
+    image_path: /assets/woodwork/RiverTable3.jpg
+    alt: "River Table v1-3"
+    title: "The wood used in the work is ash (ger: Esche)."
   - url: /assets/woodwork/RiverTableV2.jpg
     image_path: /assets/woodwork/RiverTableV2.jpg
-    alt: "River Table 2"
+    alt: "River Table v2-1"
     title: "Second attempt at building a river table for a friend."
 
 gallery2:
