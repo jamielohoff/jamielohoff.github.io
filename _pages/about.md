@@ -20,7 +20,7 @@ Jülich Research Center and RWTH Aachen. It's a lot of fun!<br>
 - AI DevOps Engineer - Robert Bosch GmbH, Stuttgart, Germany
 
 **Education**:<br>
-- PhD Electrical Engineering @ FZ Jülich and RWTH Aachen
+- PhD Electrical Engineering @ FZ Jülich and RWTH Aachen, Germany
 - MSc Physics @ Heidelberg University, Germany
 - BSc Physics @ University of Stuttgart, Germany
 
