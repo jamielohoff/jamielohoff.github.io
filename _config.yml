@@ -106,7 +106,7 @@ analytics:
 author:
   name             : "Jamie Lohoff"
   avatar           : "/assets/02.jpg"
-  bio              : "PhD in AI @ FZ Jülich, Physicist      The word `impossible` is not in my dictionary."
+  bio              : "PhD in AI @ FZ Jülich, Physicist, Interned at CSHL, Bosch"
   location         : "Aachen, Germany"
   email            :
   links:
@@ -118,16 +118,13 @@ author:
       # url: "https://your-website.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
+      url: "https://twitter.com/jamielohoff"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
+      url: "https://github.com/jamielohoff"
     - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://linkedin.com/jamielohoff"
 
 # Site Footer
 footer:
