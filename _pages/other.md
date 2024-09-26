@@ -38,10 +38,10 @@ gallery:
 
 
 River tables:
-
+![image-left](/assets/RiverTableV2.jpg){: .align-left}
 
 Cool wedding table "variables" instead of table numbers:
-![image-left](/assets/WeddingVariables.jpg){: .align-center}
+![image-left](/assets/WeddingVariables.jpg){: .align-left}
 
 Christmas decorations:
 
