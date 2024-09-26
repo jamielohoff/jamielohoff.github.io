@@ -1,5 +1,5 @@
 ---
-title: "AlphaZero Explained from Scratch in Jax"
+title: "AlphaZero Explained from Scratch in JAX"
 categories:
   - RL
 ---
