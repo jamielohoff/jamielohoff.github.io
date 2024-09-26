@@ -52,12 +52,15 @@ gallery:
 
 ### Woodworking Projects
 
+.width-half {
+    width: 50%
+}
 
 River tables:
-![image-left](/assets/woodwork/RiverTableV2.jpg){: .align-left}
+![image-left](/assets/woodwork/RiverTableV2.jpg){: .align-left .width-half}
 
 Cool wedding table "variables" instead of table numbers:
-![image-left](/assets/woodwork/WeddingVariables.jpg){: .align-left}
+![image-left](/assets/woodwork/WeddingVariables.jpg){: .align-left .width-half}
 
 Christmas decorations:
 
