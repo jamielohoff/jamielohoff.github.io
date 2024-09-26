@@ -2,7 +2,17 @@
 title: Other Projects
 permalink: /other/
 
-gallery:
+gallery1:
+  - url: /assets/woodwork/WeddingVariables.jpg
+    image_path: /assets/woodwork/WeddingVariables.jpg
+    alt: "Greek Letters"
+    title: "Homemade greek letters as a replacement for table numbers for our wedding."
+  - url: /assets/woodwork/RiverTableV2.jpg
+    image_path: /assets/woodwork/RiverTableV2.jpg
+    alt: "River Table 2"
+    title: "Second attempt at building a river table for a friend."
+
+gallery2:
   - url: /assets/w40k/Autarch1.jpeg
     image_path: /assets/w40k/Autarch1.jpeg
     alt: "Autarch 1"
@@ -52,20 +62,10 @@ gallery:
 
 ### Woodworking Projects
 
-.width-half {
-    width: 50%
-}
-
-River tables:
-![image-left](/assets/woodwork/RiverTableV2.jpg){: .align-left .width-half}
-
-Cool wedding table "variables" instead of table numbers:
-![image-left](/assets/woodwork/WeddingVariables.jpg){: .align-left .width-half}
-
-Christmas decorations:
+{% include gallery2 caption="" %}
 
 
 ### Eldar Warhammer 40k Army (Started by my good friend Gerrit - RIP!)
 
-{% include gallery caption="" %}
+{% include gallery2 caption="" %}
 
