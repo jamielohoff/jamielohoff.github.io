@@ -17,7 +17,7 @@ River tables:
 
 
 Cool wedding table "variables" instead of table numbers:
-![image-center](/assets/images/WeddingVariables.jpg){: .align-center}
+![image-left](/assets/images/WeddingVariables.jpg){: .align-center}
 
 Christmas decorations:
 
