@@ -83,5 +83,5 @@ permalink: /other/
 
 <!-- ### Eldar Warhammer 40k Army (Started by my good friend Gerrit - RIP!)
 
-{% include gallery2 caption="" %} -->
+# {% include gallery2 caption="" %} -->
 
