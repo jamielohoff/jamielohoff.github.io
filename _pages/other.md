@@ -23,6 +23,10 @@ gallery:
     image_path: /assets/woodwork/RiverTableV2.jpeg
     alt: "River Table v2-1"
     title: "Second attempt at building a river table for a friend."
+  - url: /assets/woodwork/RiverTableV2_done.jpeg
+    image_path: /assets/woodwork/RiverTableV2_done.jpeg
+    alt: "River Table v2-2"
+    title: "The completed table."
 
 # gallery2:
 #   - url: /assets/w40k/Autarch1.jpeg
