@@ -105,7 +105,7 @@ analytics:
 # Site Author
 author:
   name             : "Jamie Lohoff"
-  avatar           : "/img/02.jpg"
+  avatar           : "/assets/02.jpg"
   bio              : "PhD in AI @ FZ Jülich, Physicist, Interned at CSHL, Bosch"
   location         : "Aachen, Germany"
   email            :
