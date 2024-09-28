@@ -23,6 +23,18 @@ gallery:
     image_path: /assets/woodwork/RiverTableV2_done.jpeg
     alt: "River Table v2-2"
     title: "The completed table."
+  - url: /assets/woodwork/schwib1.jpeg
+    image_path: /assets/woodwork/schwib1.jpeg
+    alt: "Schwibbogen1"
+    title: "Homemade Schwibbogen - A classical eastern-german Christmas decoration. Made with a scroll saw and a lot of patience."
+  - url: /assets/woodwork/schwib2.jpeg
+    image_path: /assets/woodwork/schwib2.jpeg
+    alt: "Schiwbbogen2"
+    title: "Schwibbogen with lighting."
+  - url: /assets/woodwork/schwib3.jpeg
+    image_path: /assets/woodwork/schwib3.jpeg
+    alt: "Assortment"
+    title: "Assortment of other Christmas decorations I made with a scroll saw."
 
 gallery2:
   - url: /assets/w40k/Autarch1.jpeg
