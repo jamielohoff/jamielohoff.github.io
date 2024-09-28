@@ -69,14 +69,14 @@ gallery2:
     image_path: /assets/w40k/Banshees.jpeg
     alt: "Banshees"
     title: "Squad of Banshees"
-  - url: /assets/w40k/FireDragon.jpeg
-    image_path: /assets/w40k/FireDragon.jpeg
-    alt: "Single Fire Dragon"
-    title: "Single Fire Dragon Aspect Warrior"
   - url: /assets/w40k/FireDragons.jpeg
     image_path: /assets/w40k/FireDragons.jpeg
     alt: "Fire Dragons"
     title: "Squad of Fire Dragons with Exarch"
+  - url: /assets/w40k/FireDragon.jpeg
+    image_path: /assets/w40k/FireDragon.jpeg
+    alt: "Single Fire Dragon"
+    title: "Single Fire Dragon Aspect Warrior"
   - url: /assets/w40k/Fuegan.jpeg
     image_path: /assets/w40k/Fuegan.jpeg
     alt: "Fuegan"
