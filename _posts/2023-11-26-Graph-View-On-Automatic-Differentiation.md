@@ -6,6 +6,7 @@ use_math: true
 comments: true
 ---
 
+Few people are familiar with the graph view on automatic differentiation.
 $$
 f(x_1, x_2) = \begin{pmatrix} \log \sin x_1x_2 \\ x_1x_2 + \sin x_1x_2 \end{pmatrix}
 $$
