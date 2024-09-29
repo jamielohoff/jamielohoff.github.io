@@ -12,7 +12,7 @@ Differential Geometry is the branch of mathematics that studies distances, shape
 Now what is a manifold and what does it mean when we say it is smooth?
 
 ### Smooth Manifolds
-Most of the fundamental branches of mathematics define some kind of ambient object to set the scene. This is usually the first thing that gets constructed and checked for consistency in any reasonably well-designed book or lecture. It is typically a set equipped with some additional mathematical structure(s). Examples:
+Most of the fundamental branches of mathematics define some kind of ambient object to set the scene. This is usually the first thing that gets constructed and checked for consistency in any reasonably well-designed book or lecture. It is typically a set equipped with some additional mathematical structure(s). **Examples:**
 - Linear Algebra: Vector space where the set is something like the $\mathbb\{R}^n$ and the additional structure are the eight axioms that make vector addition and scalar multiplication possible
 - Calculus of one variable: Metric space where the set is again something like the $\mathbb\{R^n}$ and the additional structure is a two-variable function $d(x,y)$ that satisfies positivity, symmetry and the triangle equation. This is needed so that we can define things like continuity, limits and derivatives.
 - Probability theory: Probability space which consists of two sets, the sampling set and the outcome set. Furthermore, we have a function $P$ that assigns probabilities to the outcomes. The Kolmogorov axioms are the additional structure that makes everything work here.
@@ -25,8 +25,8 @@ Thus a smooth manifold is nothing else than a space that locally looks like the 
 There is plenty of literature on these things so I will not dive further into the specifics of how to construct charts and atlasses for a given smooth manifold.
 
 ### Maps between Manifolds
-The most interesting part of course is the study of maps between manifolds, i.e. f: M --> N where M,N are smooth manifolds.
-In practive it is usually not possible to write down f directly and we fall back of formulating f using atlasses defined on M,N which $f = \phi^{-1} \circ f \circ \psi$.
+The most interesting part of course is the study of maps between manifolds, i.e. $f: M \to N$ where $M$,$N$ are smooth manifolds.
+In practive it is usually not possible to write down $f$ directly and we fall back of formulating $f$ using atlasses defined on $M$,$N$ which $f = \phi^{-1} \circ f \circ \psi$.
 But now a change in coordinates becomes almost trivial because we can just consider maps between different charts.
 However, coordinate-free formulations are extremely helpful if one does not want to worry about things such as choosing a coordinate system and instead focus on the "gist" of what f does. This is particularly important in physics where laws should be independent of the choice of coordinates (a key insight that enabled Einstein to formulate his Theory of General Relativity). All laws of physics can be formulated in a coordinate-free, differential geometric version.
 
@@ -34,7 +34,7 @@ However, coordinate-free formulations are extremely helpful if one does not want
 Before we move on to doing the fun stuff we have to introduce one more concept: the tangent space. It is the generatlization of the tangent in single-variable calculus.
 We need it to define derivatives on manifolds. The construction of the tangent vector
 
-Often we are interested in changes induced by f. Think of a neural network which maps the parameter manifold to the loss landscape manifold. Then we are interested in the derivatives of f. We can calculate these using charts because then we can simply apply multivariable calculus.
+Often we are interested in changes induced by $f$. Think of a neural network which maps the parameter manifold to the loss landscape manifold. Then we are interested in the derivatives of $f$. We can calculate these using charts because then we can simply apply multivariable calculus.
 $h_\theta(x) = \theta_0 x + \theta_1 x$
 
 ### Literature
