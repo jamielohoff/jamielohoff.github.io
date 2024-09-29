@@ -3,6 +3,7 @@ title: "Geometric View on Automatic Differentiation"
 tags:
   - AD
 use_math: true
+comments: true
 ---
 
 This article offers quite a different perspective on some of the principles behind algorithmic differentiation (AD). We look at AD through the lens of Differential Geometry, one of my favorite branches of mathematics. While I have not yet unearthed any fundamental consequences following from this viewpoint, I still think it is worth writing it down somewhere.
