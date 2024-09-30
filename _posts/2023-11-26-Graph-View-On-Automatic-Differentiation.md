@@ -120,7 +120,7 @@ of order (2, 1) has incurred 6 multiplications and 1 addition (excluding the com
 of the $f$ itself and the partial derivatives, only the accumulation).
 Doing the order (1, 2) will instead incur 8 multiplication and 2 additions!
 Aha, there is a difference in computational requirements depending on the
-elimination order. As a matter of fact every vertex elimination operation incurs
+elimination order. As a matter of fact, every vertex elimination operation incurs
 a certain number of multiplications and additions depending on which vertices
 have been eliminated before. Thus every order of elimination creates its own
 algorithm which we can extract from the tape and has its own computational
@@ -146,7 +146,7 @@ internal sparsity structure that should be exploited when performing the contrac
 because otherwise the gains through vertex elimination are quickly lost.
 More on that can be found in the AlphaGrad paper. If you want to play around with
 vertex elimination and even use vector and matrix-valued functions, have a look
-at my [graphax](https://github.com/jamielohoff/graphax) package
+at my [graphax](https://github.com/jamielohoff/graphax) package.
 
 2. **Other Metrics** While counting the number of multiplications and additions
 is a nice theoretical way of judging an algorithms performance, they often only
