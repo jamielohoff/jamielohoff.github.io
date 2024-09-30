@@ -64,8 +64,25 @@ potentially write in a language of our choice, e.g. C++, Python or Julia.
 for every computed derivative we add an entry to the tape." %}
 
 Now it is time to describe the actual vertex elimination algorithm.
+For this, we take a look at the second intermediate (blue) vertex.
+It has one ingoing and two outgoing vertices. 
+The vertex elimination rule for vertex $j$ now states:
+<br>
+*For every ingoing edge of vertex $j$ we multiply the corresponding partial 
+derivate $c_{ji}$ with every partial derivative of every outoing edge $c_{kj}$.
+For every of these products, we draw a new edge from the starting vertex $i$ of
+the ingoing edge to the destination vertex $k$ of the outgoing edge and identify
+the associated partial $c_{ki} = c_{kj}c_{ji}$. If said edge already exist, we just
+add the values, i.e. $c_{ki} = c_{ki} + c_{kj}c_{ji}$. Finally we delete all edges
+connected to vertex $j$.*
+<br>
 
-{% include figure popup=true image_path="/assets/cce/Vertex2Elimination.gif" alt="this is a placeholder image" caption="This is a figure caption." %}
+Figure 4 gives an animated example of how this works for our function $f$.
+Note that this is nothing else than locally applying the chain rule to vertices
+$i$, $j$ and $k$. As a quick illustration, look at the very simple graph $x \to g(x) \to f(g(x))$.
+
+
+{% include figure popup=true image_path="/assets/cce/Vertex2Elimination.gif" alt="this is a placeholder image" caption="Figure 4:." %}
 
 {% include figure popup=true image_path="/assets/cce/Vertex1Elimination.gif" alt="this is a placeholder image" caption="This is a figure caption." %}
 
