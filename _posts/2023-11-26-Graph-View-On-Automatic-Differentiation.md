@@ -58,7 +58,7 @@ c_{ji} = \dfrac{\partial v_1}{\partial v_{-1}} = \dfrac{\partial}{\partial v_{-1
 $$ 
 <br>
 and add this to the edge as an associated value.
-We introduce the shorthand $c_{ji} for the partial derivative value associated 
+We introduce the shorthand $c_{ji}$ for the partial derivative value associated 
 with the edge going from $i$ to $j$.
 Note that we add the computed partial derivatives to the tape as well.
 In general, we will utilize the tape as a record keeping devices that stores
