@@ -26,7 +26,7 @@ Jülich Research Center and RWTH Aachen. It's a lot of fun!<br>
 
 **Awards**:<br>
 - NeurIPS 2024 Spotlight Paper for *Optimizing Automatic Differentiation with Reinforcement Learning*
-- CSHL NeuroAI Researcher Scholarship Award (20.000$)
+- CSHL NeuroAI Researcher Scholarship Award ($20.000)
 
 **Publications**:<br>
 [Google Scholar](https://scholar.google.de/citations?user=CQ_0g-wAAAAJ&hl=de&oi=ao)
