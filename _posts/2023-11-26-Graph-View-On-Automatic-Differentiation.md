@@ -78,12 +78,58 @@ connected to vertex $j$.*
 <br>
 
 Figure 4 gives an animated example of how this works for our function $f$.
-Note that this is nothing else than locally applying the chain rule to vertices
-$i$, $j$ and $k$. As a quick illustration, look at the very simple graph $x \to g(x) \to f(g(x))$.
+Note that this is nothing else than **locally applying the chain rule** to vertices
+$i$, $j$ and $k$. As a quick illustration, look at the very simple graph 
+$x \to g(x) \to f(g(x))$. The ingoing edge has the derivative $g'(x)$ associated
+with it while the outgoing edge has the associated value of $f'(g(x))$.
+The application of the vertex elimination rule would give $x \to f(g(x))$ where 
+the new edge directly connecting $x$ and $f(g(x))$ has the value $f'(g(x))g'(x)$.
 
+{% include figure popup=true image_path="/assets/cce/Vertex2Elimination.gif" alt="this is a placeholder image" caption="Figure 4: Vertex elimination of vertex 2. Red dotted edges are the ones that are newly created or overwritten. Note how vertex 2 is completely disconnected from the graph after the application of the vertex elimination rule and thus deleted." %}
 
-{% include figure popup=true image_path="/assets/cce/Vertex2Elimination.gif" alt="this is a placeholder image" caption="Figure 4:." %}
+After eliminating vertex 2, we eliminate vertex 1 with the same procedure.
+Figure 5 shows how this is done. After vertex one is eliminated, there are no
+intermediate, blue vertices left. In fact we have what is called a **bipartite graph**.
+What is this good for? There exists a series of proofs (put source here!) that
+show that if we apply the vertex elimination rule to a computational graph
+and make it bipartite, the values $c_{ji}$ on its edges are exactly the elements
+of the Jacobian of our function. This shows that vertex elimination of **all**
+intermediate (blue) vertices yields and algorithm that allows us to compute the 
+Jacobian of a function $f$. As in every good textbook we leave the verification
+of this statement for the given example to the reader. No really, just do it!
 
-{% include figure popup=true image_path="/assets/cce/Vertex1Elimination.gif" alt="this is a placeholder image" caption="This is a figure caption." %}
+{% include figure popup=true image_path="/assets/cce/Vertex1Elimination.gif" alt="this is a placeholder image" caption="Figure 5: Elimination of vertex 1 using the vertex elimination rule. Note how we end up with a bipartite graph after
+vertex 1 is eliminated." %}
 
+Note that the actual algorithm is not contained in the graph, but rather in all 
+the operations and assignment that have been recorded on the tape. It is fairly
+easy to implement this sequence of operations in a language of your choice.
+But what is this good for? And why did we do the elimination order 2 then 1 (2, 1)
+instead of 1 then 2 (1, 2)?
+We start by answering the second question. Doing this is totally valid and one
+could easily do this. Another exercise for the reader maybe! In any case, the 
+resulting algorithm will yield the same Jacobian but there is a big difference.
+If you look closely at the tape in figure 5, you see that the vertex elimination 
+of order (2, 1) has incurred 6 multiplications and 1 addition (excluding the computation
+of the $f$ itself and the partial derivatives, only the accumulation).
+Doing the order (1, 2) will instead incur 8 multiplication and 2 additions!
+Aha, there is a difference in computational requirements depending on the
+elimination order. As a matter of fact every vertex elimination operation incurs
+a certain number of multiplications and additions depending on which vertices
+have been eliminated before. Thus every order of elimination creates its own
+algorithm which we can extract from the tape and has its own computational
+cost. **Vertex elimination is a systematic way to create tailored AD algorithms for a given 
+function $f$, each with their own computational cost.**
+Obviously, we would like to select the algorithm with the lowest computational cost.
+This is a NP-complete problem. I offer one solution which I called **AlphaGrad**.
+It can be found under https://arxiv.org/abs/2406.05027.
+
+### Extensions
+The way vertex elimination was described so far is actually very limited if you
+want to use it for production usecases. There are two possible extensions
+that make vertex elimination applicable to a wider range of problems.
+
+1.
+
+2.
 
