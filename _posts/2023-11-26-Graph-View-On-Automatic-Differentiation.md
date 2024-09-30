@@ -28,7 +28,7 @@ sequential order in a list called the **Wengert List** or the **Tape** (see figu
 Every elemental operation outputs an intermediate variable $v_i$ which is then
 fed to the next operation.
 
-{% include figure popup=true image_path="/assets/cce/GraphConstruction.gif" alt="Tape from formula" caption="Figure 1: The tape is obtained by simply tracing through the equation and identifying the elemental operations where we know the
+{% include figure popup=true image_path="/assets/cce/MakingTheTape.png" alt="Tape from formula" caption="Figure 1: The tape is obtained by simply tracing through the equation and identifying the elemental operations where we know the
 derivatives analytically. Then we write the equation as a sequence of said elemental operations." %}
 
 Not that the naming convention is a bit weird as we index the using negative 
@@ -161,7 +161,7 @@ vertices and edges. Learn more about this in [1].
 
 ### Sources
 
-[1] *Evaluating Derivatives*. Griewank und Walther. 2008. SIAM.
+[1] *Evaluating Derivatives*. Griewank und Walther. 2008. SIAM.<br>
 [2] *Optimizing Automatic Differentiation with Reinforcement Learning*. 
 Lohoff and Neftci. 2024. Proceedings of NeurIPS 2024. 
 
