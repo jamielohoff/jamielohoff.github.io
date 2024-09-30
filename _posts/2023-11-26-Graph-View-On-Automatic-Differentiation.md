@@ -28,7 +28,8 @@ sequential order in a list called the **Wengert List** or the **Tape** (see figu
 Every elemental operation outputs an intermediate variable $v_i$ which is then
 fed to the next operation.
 
-fig here!
+{% include figure popup=true image_path="/assets/cce/GraphConstruction.gif" alt="Tape from formula" caption="Figure 1: The tape is obtained by simply tracing through the equation and identifying the elemental operations where we know the
+derivatives analytically. Then we write the equation as a sequence of said elemental operations." %}
 
 Not that the naming convention is a bit weird as we index the using negative 
 numbers up to 0, while the first elemental operation is indexed using 1.
@@ -50,10 +51,15 @@ account of the computational graph creation.
 The first step towards the vertex elimination algorithm is to populate the edges
 of the graph with partial derivatives of the destination vertex with respect to
 the starting vertex. For example for the edge going from vertex $v_{-1}$ to vertex 
-$v_1$, we would compute $\dfrac{\partial v_1}{\partial v_{-1}} = \dfrac{\partial}{\partial v_{-1}} v_{-1}v_0 = v_0$ 
+$v_1$, we would compute 
+<br>
+$$
+c_{ji} = \dfrac{\partial v_1}{\partial v_{-1}} = \dfrac{\partial}{\partial v_{-1}} (v_{-1}v_0) = v_0
+$$ 
+<br>
 and add this to the edge as an associated value.
-We introduce the shorthand $c_{ji}$ = $\dfrac{\partial v_j}{\partial v_i}$ for
-the partial derivative value associated with the edge going from $i$ to $j$.
+We introduce the shorthand $c_{ji} for the partial derivative value associated 
+with the edge going from $i$ to $j$.
 Note that we add the computed partial derivatives to the tape as well.
 In general, we will utilize the tape as a record keeping devices that stores
 all the operations that have been computed "on the graph".
@@ -67,7 +73,7 @@ Now it is time to describe the actual vertex elimination algorithm.
 For this, we take a look at the second intermediate (blue) vertex.
 It has one ingoing and two outgoing vertices. 
 The vertex elimination rule for vertex $j$ now states:
-<br>
+<br><br>
 *For every ingoing edge of vertex $j$ we multiply the corresponding partial 
 derivate $c_{ji}$ with every partial derivative of every outoing edge $c_{kj}$.
 For every of these products, we draw a new edge from the starting vertex $i$ of
@@ -90,7 +96,7 @@ the new edge directly connecting $x$ and $f(g(x))$ has the value $f'(g(x))g'(x)$
 After eliminating vertex 2, we eliminate vertex 1 with the same procedure.
 Figure 5 shows how this is done. After vertex one is eliminated, there are no
 intermediate, blue vertices left. In fact we have what is called a **bipartite graph**.
-What is this good for? There exists a series of proofs (put source here!) that
+What is this good for? There exists a series of proofs [1] that
 show that if we apply the vertex elimination rule to a computational graph
 and make it bipartite, the values $c_{ji}$ on its edges are exactly the elements
 of the Jacobian of our function. This shows that vertex elimination of **all**
@@ -122,14 +128,40 @@ cost. **Vertex elimination is a systematic way to create tailored AD algorithms 
 function $f$, each with their own computational cost.**
 Obviously, we would like to select the algorithm with the lowest computational cost.
 This is a NP-complete problem. I offer one solution which I called **AlphaGrad**.
-It can be found under https://arxiv.org/abs/2406.05027.
+It can be found under [this link](https://arxiv.org/abs/2406.05027).
 
 ### Extensions
 The way vertex elimination was described so far is actually very limited if you
 want to use it for production usecases. There are two possible extensions
 that make vertex elimination applicable to a wider range of problems.
 
-1.
+1. **Support for Vectors** In many modern applications, the function $f$ will have vector- or tensor-valued
+inputs, e.g. a neural network. While it would be mathematically possible to 
+treat every value as a single input value, this would be cumbersome to do.
+A more viable approach instead would be to allow vertices to have vector- and
+tensor-valued derivatives, i.e. partial Jacobians. Then the multiplication of
+two partial derivatives becomes a contraction of two tensors instead. The addition
+remains the same. The important part of this is that many Jacobians have an
+internal sparsity structure that should be exploited when performing the contractions, 
+because otherwise the gains through vertex elimination are quickly lost.
+More on that can be found in the AlphaGrad paper. If you want to play around with
+vertex elimination and even use vector and matrix-valued functions, have a look
+at my [graphax](https://github.com/jamielohoff/graphax) package
 
-2.
+2. **Other Metrics** While counting the number of multiplications and additions
+is a nice theoretical way of judging an algorithms performance, they often only
+give a limited account of the actual performance. Instead, it might make more
+sense to select vertex algorithms with respect to actual runtime, memory use etc.
+
+3. **Edge and Face Elimination** Vertex elimination is only one way to systematically
+construct AD algorithms. Edge elimination uses the same principle but for 
+individual edges instead of whole vertices. Face elimination lifts the whole
+business to a whole level by introducing faces as objects that consist of multiple
+vertices and edges. Learn more about this in [1].
+
+### Sources
+
+[1] *Evaluating Derivatives*. Griewank und Walther. 2008. SIAM.
+[2] *Optimizing Automatic Differentiation with Reinforcement Learning*. 
+Lohoff and Neftci. 2024. Proceedings of NeurIPS 2024. 
 
