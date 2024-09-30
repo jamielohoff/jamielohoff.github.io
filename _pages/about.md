@@ -7,7 +7,7 @@ author_profile: true
 
 
 **Me**: <br>
-CV: <br>
+[CV](https://jamielohoff.github.io/assets/Lohoff_CV.pdf) <br>
 I love building cool and innovative things with ideas from AI, Physics, Mathematics
 and Biology. The word *impossible* is crossed out in my dictionary.
 Currently doing a PhD in Neuromorphic Computing and Artificial Intelligence at 
@@ -29,9 +29,5 @@ Jülich Research Center and RWTH Aachen. It's a lot of fun!<br>
 - CSHL NeuroAI Researcher Scholarship Award (20.000$)
 
 **Publications**:<br>
-Google Scholar: https://scholar.google.de/citations?user=CQ_0g-wAAAAJ&hl=de&oi=ao
-
--
--
--
+[Google Scholar](https://scholar.google.de/citations?user=CQ_0g-wAAAAJ&hl=de&oi=ao)
 
