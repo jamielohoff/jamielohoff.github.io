@@ -22,7 +22,7 @@ additions, multiplications, logarithms etc. This step is always part of every
 AD algorithm/method because for these simple functions we know the exact (partial) 
 derivatives. With the chain rule, we can then assemble the Jacobian of $f$ from 
 these simple elemental partial derivatives. Most AD algorithms then differ 
-in the order in which the chain rule is applied, e.g. forward-mode vs. backpropagation.
+in the order in which the chain rule is applied, e.g. forward-mode AD vs. reverse-mode AD (aka backpropagation).
 After we have dissecting $f$ into its elemental operations we store them in
 sequential order in a list called the **Wengert List** or the **Tape** (see figure 1).
 Every elemental operation outputs an intermediate variable $v_i$ which is then
@@ -50,7 +50,7 @@ account of the computational graph creation.
 
 The first step towards the vertex elimination algorithm is to populate the edges
 of the graph with partial derivatives of the destination vertex with respect to
-the starting vertex. For example for the edge going from vertex $v_{-1}$ to vertex 
+the source vertex. For example for the edge going from vertex $v_{-1}$ to vertex 
 $v_1$, we would compute 
 <br>
 $$
@@ -74,15 +74,14 @@ For this, we take a look at the second intermediate (blue) vertex.
 It has one ingoing and two outgoing vertices. 
 The vertex elimination rule for vertex $j$ now states:
 <br><br>
-*For every ingoing edge of vertex $j$ we multiply the corresponding partial 
-derivate $c_{ji}$ with every partial derivative of every outoing edge $c_{kj}$.
-For every of these products, we draw a new edge from the starting vertex $i$ of
-the ingoing edge to the destination vertex $k$ of the outgoing edge and identify
-the associated partial $c_{ki} = c_{kj}c_{ji}$. If said edge already exist, we just
-add the values, i.e. $c_{ki} = c_{ki} + c_{kj}c_{ji}$. Finally we delete all edges
-connected to vertex $j$.*
+> For every ingoing edge of vertex $j$ we multiply the corresponding partial 
+> derivate $c_{ji}$ with every partial derivative of every outoing edge $c_{kj}$.
+> For every of these products, we draw a new edge from the source vertex $i$ of
+> the ingoing edge to the destination vertex $k$ of the outgoing edge and identify
+> the associated partial $c_{ki} = c_{kj}c_{ji}$. If said edge already exist, we just
+> add the values, i.e. $c_{ki} = c_{ki} + c_{kj}c_{ji}$. Finally we delete all edges
+> connected to vertex $j$.
 <br>
-
 Figure 4 gives an animated example of how this works for our function $f$.
 Note that this is nothing else than **locally applying the chain rule** to vertices
 $i$, $j$ and $k$. As a quick illustration, look at the very simple graph 
@@ -135,7 +134,7 @@ The way vertex elimination was described so far is actually very limited if you
 want to use it for production usecases. There are two possible extensions
 that make vertex elimination applicable to a wider range of problems.
 
-1. **Support for Vectors** In many modern applications, the function $f$ will have vector- or tensor-valued
+1. **Support for Vectors and Tensors** In many modern applications, the function $f$ will have vector- or tensor-valued
 inputs, e.g. a neural network. While it would be mathematically possible to 
 treat every value as a single input value, this would be cumbersome to do.
 A more viable approach instead would be to allow vertices to have vector- and
