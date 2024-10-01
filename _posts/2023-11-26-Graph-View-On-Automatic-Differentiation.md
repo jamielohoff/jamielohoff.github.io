@@ -43,7 +43,7 @@ the vertex $v_1$ is involved in computing $v_2$ and $v_4$ it has to edges emanat
 to these vertices, making a total of two ingoing and two outgoing vertices.
 Note that input vertices are red and only represent numbers, while intermediate and
 output vertices are blue and green respectively. The latter two only differ in the
-fact that an output vertex has no outgoing edges. Figure 2 provides a nice visual
+fact that an output vertex has no outgoing edges. Figure 2 provides a visual
 account of the computational graph creation.
 
 {% include figure popup=true image_path="/assets/cce/GraphConstruction.gif" alt="Computational Graph Creation" caption="Figure 2: This animation shows how the computational graph is created from the tape that stores the elemental operations that make up function f. Input variables are red, intermediate elemental operations and corresponding variables are blue and output vertices are green." %}
@@ -75,12 +75,12 @@ It has one ingoing and two outgoing vertices.
 The vertex elimination rule for vertex $j$ now states:
 <br><br>
 > For every ingoing edge of vertex $j$ we multiply the corresponding partial 
-> derivate $c_{ji}$ with every partial derivative of every outoing edge $c_{kj}$.
-> For every of these products, we draw a new edge from the source vertex $i$ of
-> the ingoing edge to the destination vertex $k$ of the outgoing edge and identify
-> the associated partial $c_{ki} = c_{kj}c_{ji}$. If said edge already exist, we just
-> add the values, i.e. $c_{ki} = c_{ki} + c_{kj}c_{ji}$. Finally we delete all edges
-> connected to vertex $j$.
+derivate $c_{ji}$ with every partial derivative of every outoing edge $c_{kj}$.
+For each of these products, we draw a new edge from the source vertex $i$ of
+the ingoing edge to the destination vertex $k$ of the outgoing edge and identify
+the associated partial $c_{ki} = c_{kj}c_{ji}$. If said edge already exist, we just
+add the values, i.e. $c_{ki} = c_{ki} + c_{kj}c_{ji}$. Finally we delete all edges
+connected to vertex $j$.
 <br>
 Figure 4 gives an animated example of how this works for our function $f$.
 Note that this is nothing else than **locally applying the chain rule** to vertices
