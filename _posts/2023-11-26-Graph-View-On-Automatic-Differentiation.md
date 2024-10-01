@@ -17,7 +17,6 @@ $$
 f(x_1, x_2) = \begin{pmatrix} \log \sin x_1x_2 \\ x_1x_2 + \sin x_1x_2 \end{pmatrix}
 $$ 
 </p>
-<br>
 The first thing we need is the computational graph. We obtain this graph by first 
 dissecting the function $f$ into a sequence of elemental operations like 
 additions, multiplications, logarithms etc. This step is always part of every
@@ -65,8 +64,6 @@ with the edge going from $i$ to $j$.
 Note that we add the computed partial derivatives to the tape as well.
 In general, we will utilize the tape as a record keeping devices that stores
 all the operations that have been computed "on the graph".
-In essence, it is an abstract representation of a computer program that we could
-potentially write in a language of our choice, e.g. C++, Python or Julia.
 
 {% include figure popup=true image_path="/assets/cce/PopulatingDerivatives.gif" alt="this is a placeholder image" caption="Figure 3: The animation demonstrates the population of the graph's edges with partial derivatives. Note that
 for every computed derivative we add an entry to the tape." %}
