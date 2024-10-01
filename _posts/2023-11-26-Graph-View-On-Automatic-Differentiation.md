@@ -12,9 +12,11 @@ The underlying idea is to frame AD as an operation on the computational graph.
 This short blog article tries to give an overview over this concept called 
 **vertex elimination** and tries to describe in detail how it works.
 Consider a simple function $f$ that maps two inputs to two outputs:
+<p style="text-align: center;">
 $$
 f(x_1, x_2) = \begin{pmatrix} \log \sin x_1x_2 \\ x_1x_2 + \sin x_1x_2 \end{pmatrix}
 $$ 
+</p>
 <br>
 The first thing we need is the computational graph. We obtain this graph by first 
 dissecting the function $f$ into a sequence of elemental operations like 
